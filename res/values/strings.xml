@@ -17,5 +17,6 @@
     <string name="title_activity_category_selected">CategorySelected</string>
     <string name="title_activity_date_selected">DateSelected</string>
     <string name="title_activity_event_again">EventAgain</string>
+    <string name="title_activity_search_results_again">MainActivity</string>
 
 </resources>
