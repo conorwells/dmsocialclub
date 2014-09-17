@@ -102,6 +102,30 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.dmsocialclub.MainActivity" />
         </activity>
+        <activity
+            android:name=".CategorySelected"
+            android:label="@string/title_activity_category_selected"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dmsocialclub.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DateSelected"
+            android:label="@string/title_activity_date_selected"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dmsocialclub.MainActivity" />
+        </activity>
+        <activity
+            android:name=".EventAgain"
+            android:label="@string/title_activity_event_again"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dmsocialclub.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
