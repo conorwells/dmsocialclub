@@ -1,9 +1,11 @@
 package com.example.dmsocialclub;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class RecommendedEvents extends Activity {
 
@@ -30,5 +32,10 @@ public class RecommendedEvents extends Activity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+	
+	public void sendMessageEvent (View view) {
+		Intent intent = new Intent(this, Event.class);
+		startActivity(intent);
 	}
 }

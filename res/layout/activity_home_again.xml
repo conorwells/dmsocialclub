@@ -9,12 +9,12 @@
     tools:context="com.example.dmsocialclub.HomeAgain" >
 
     <ImageButton
-        android:id="@+id/homeagain"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/imageButton1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:src="@drawable/homescreen"
-        android:onClick="sendMessageHomeAgain" />
+        android:background="@drawable/homescreen"
+        android:onClick="sendMessage" />
 
 </RelativeLayout>

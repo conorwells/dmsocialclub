@@ -1,9 +1,11 @@
 package com.example.dmsocialclub;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class Event extends Activity {
 
@@ -30,5 +32,10 @@ public class Event extends Activity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+	
+	public void sendMessageContact (View view) {
+		Intent intent = new Intent(this, Contact.class);
+		startActivity(intent);
 	}
 }
