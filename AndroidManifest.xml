@@ -22,6 +22,86 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".CategoryDropdown"
+            android:label="@string/title_activity_category_dropdown"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dmsocialclub.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DateDropdown"
+            android:label="@string/title_activity_date_dropdown"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dmsocialclub.MainActivity" />
+        </activity>
+        <activity
+            android:name=".PriceDropdown"
+            android:label="@string/title_activity_price_dropdown"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dmsocialclub.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FinishedFilter"
+            android:label="@string/title_activity_finished_filter"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dmsocialclub.MainActivity" />
+        </activity>
+        <activity
+            android:name=".RecommendedEvents"
+            android:label="@string/title_activity_recommended_events"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dmsocialclub.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Event"
+            android:label="@string/title_activity_event"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dmsocialclub.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Contact"
+            android:label="@string/title_activity_contact"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dmsocialclub.MainActivity" />
+        </activity>
+        <activity
+            android:name=".HomeAgain"
+            android:label="@string/title_activity_home_again"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dmsocialclub.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Search"
+            android:label="@string/title_activity_search"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dmsocialclub.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SearchResults"
+            android:label="@string/title_activity_search_results"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dmsocialclub.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
