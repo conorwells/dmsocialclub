@@ -34,8 +34,8 @@ public class CategoryDropdown extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 	
-	public void sendMessageDateDropDown (View view) {
-		Intent intent = new Intent(this, DateDropdown.class);
+	public void sendMessageCategorySelected (View view) {
+		Intent intent = new Intent(this, CategorySelected.class);
 		startActivity(intent);
 	}
 }

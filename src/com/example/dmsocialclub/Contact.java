@@ -34,8 +34,8 @@ public class Contact extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 	
-	public void sendMessageHomeAgain (View view) {
-		Intent intent = new Intent(this, HomeAgain.class);
+	public void sendMessageSearchResultsAgain (View view) {
+		Intent intent = new Intent(this, SearchResultsAgain.class);
 		startActivity(intent);
 	}
 }

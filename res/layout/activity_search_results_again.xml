@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.dmsocialclub.Contact" >
+    tools:context="com.example.dmsocialclub.SearchResultsAgain" >
 
     <ImageButton
         android:id="@+id/imageButton1"
@@ -14,7 +14,7 @@
         android:layout_height="fill_parent"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:background="@drawable/contact"
-        android:onClick="sendMessageSearchResultsAgain" />
+        android:background="@drawable/search_results"
+        android:onClick="sendMessageMain" />
 
 </RelativeLayout>

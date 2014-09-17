@@ -7,18 +7,18 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-public class SearchResults extends Activity {
+public class SearchResultsAgain extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_search_results);
+		setContentView(R.layout.activity_search_results_again);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.search_results, menu);
+		getMenuInflater().inflate(R.menu.search_results_again, menu);
 		return true;
 	}
 
@@ -33,8 +33,9 @@ public class SearchResults extends Activity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
-	public void sendMessageContact (View view) {
-		Intent intent = new Intent(this, Contact.class);
+	
+	public void sendMessageMain (View view) {
+		Intent intent = new Intent(this, MainActivity.class);
 		startActivity(intent);
 	}
 }

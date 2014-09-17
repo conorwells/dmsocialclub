@@ -34,8 +34,8 @@ public class Event extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 	
-	public void sendMessageContact (View view) {
-		Intent intent = new Intent(this, Contact.class);
+	public void sendMessageHomeAgain (View view) {
+		Intent intent = new Intent(this, HomeAgain.class);
 		startActivity(intent);
 	}
 }
