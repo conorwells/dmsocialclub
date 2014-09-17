@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 	
-	public void sendMessage (View view) {
+	public void sendMessageCategoryDropDown (View view) {
 		Intent intent = new Intent(this, CategoryDropdown.class);
 		startActivity(intent);
 	}

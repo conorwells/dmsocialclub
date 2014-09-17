@@ -9,12 +9,12 @@
     tools:context="com.example.dmsocialclub.CategoryDropdown" >
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/imageButton1"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:background="@drawable/homescreen"
-        android:onClick="sendMessageDateDropdown" />
+        android:onClick="sendMessageDateDropDown" />
 
 </RelativeLayout>

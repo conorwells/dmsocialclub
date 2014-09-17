@@ -34,7 +34,7 @@ public class FinishedFilter extends Activity {
 		return super.onOptionsItemSelected(item);
 	}
 	
-	public void sendMessageRecommenedEvent (View view) {
+	public void sendMessageRecommendEvent (View view) {
 		Intent intent = new Intent(this, RecommendedEvents.class);
 		startActivity(intent);
 	}
