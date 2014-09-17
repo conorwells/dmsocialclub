@@ -35,7 +35,7 @@ public class CategoryDropdown extends Activity {
 	}
 	
 	public void sendMessageDateDropDown (View view) {
-		Intent intent = new Intent(this, DateDropdown.class);
-		startActivity(intent);
+		Intent intent1 = new Intent(this, DateDropdown.class);
+		startActivity(intent1);
 	}
 }
