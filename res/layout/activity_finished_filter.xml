@@ -15,6 +15,6 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:src="@drawable/homescreen"
-        android:onClick="sendMessage" />
+        android:onClick="sendMessageFinishedFilter" />
 
 </RelativeLayout>

@@ -15,6 +15,6 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="14dp"
         android:src="@drawable/homescreen"
-        android:onClick="sendMessage" />
+        android:onClick="sendMessageContact" />
 
 </RelativeLayout>
